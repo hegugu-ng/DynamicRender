@@ -17,10 +17,8 @@ async def test():
     for element in dylist:
         await Render.ReneringManage(element)
         # 您可以在实例化的类中的 ReprenderIMG 获得图片对象
-        Render.ReprenderIMG.show()
-        i += 1
-        if i == 1:
-            break
+        Render.ReprenderIMG.save("./test.png")
+        break
         
 
 # 运行协程函数需要在事件循环中运行
@@ -33,3 +31,4 @@ loop.run_until_complete(test())
 #     i += 1
 #     if i == 1:
 #         break
+

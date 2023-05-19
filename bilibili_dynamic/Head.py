@@ -138,7 +138,7 @@ def headRendering(desc,cpx = 150,path = None):
             officialimg, (fpx + ico // 2, fpx + ico // 2), mask=officialimg
         )
 
-
+    HeadRender.show()
     main.paste(HeadRender,mask=HeadRender)
 
     return main

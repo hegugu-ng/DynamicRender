@@ -1,0 +1,315 @@
+{
+  "version": "0.1b",
+  "canvas_top": {
+    "container_size": { "height": 263, "width": 1080 },
+    "layers": [
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 0,
+            "axis_y": 0,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 263, "width": 1080 }
+        },
+        "layer_config": {
+          "is_critical": true,
+          "layer_mode": "RGB",
+          "background_color": "#ffffff"
+        },
+        "resource": {
+          "res_type": 0
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 459,
+            "axis_y": 120,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 74, "width": 162 }
+        },
+        "layer_config": {
+          "is_critical": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": { "local": 1, "src_type": 1 }
+          },
+          "res_type": 3
+        }
+      }
+    ]
+  },
+  "canvas_footer": {
+    "container_size": { "height": 312, "width": 1080 },
+    "layers": [
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 0,
+            "axis_y": 0,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 312, "width": 1080 }
+        },
+        "layer_config": {
+          "is_critical": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": { "local": 2, "src_type": 1 }
+          },
+          "res_type": 3
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 46,
+            "axis_y": 115,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 53, "width": 115 }
+        },
+        "layer_config": {
+          "is_critical": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": { "local": 1, "src_type": 1 }
+          },
+          "res_type": 3
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 46,
+            "axis_y": 197,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 30, "width": 0 }
+        },
+        "layer_config": {
+          "is_critical": true,
+          "font_size": 30
+        },
+        "resource": {
+          "text": {
+            "orig_text": "识别二维码，查看动态"
+          },
+          "res_type": 1
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 860,
+            "axis_y": 121,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 164, "width": 164 }
+        },
+        "layer_config": {
+          "is_critical": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": { "local": 3, "src_type": 1 }
+          },
+          "res_type": 3
+        }
+      }
+    ]
+  },
+  "canvas_avatar": {
+    "container_size": { "height": 190, "width": 1080 },
+    "layers": [
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 0,
+            "axis_y": 0,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 190, "width": 1080 }
+        },
+        "layer_config": {
+          "is_critical": true,
+          "layer_mode": "RGB",
+          "background_color": "#ffffff"
+        },
+        "resource": {
+          "res_type": 0
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 35,
+            "axis_y": 35,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 120, "width": 120 }
+        },
+        "layer_config": {
+          "is_critical": true,
+          "is_circular": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": {
+              "remote": "https://i2.hdslb.com/bfs/face/99a184d94d3737af802b3abbfe1ee51f458f83d8.jpg",
+              "src_type": 2
+            }
+          },
+          "res_type": 3
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 0,
+            "axis_y": 0,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 190, "width": 190 }
+        },
+        "layer_config": {
+          "is_critical": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": {
+              "remote": "https://i2.hdslb.com/bfs/garb/item/ff5bde4a6337140b632beffd0cbbaaf927c03ac0.webp",
+              "src_type": 2
+            }
+          },
+          "res_type": 3
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 110,
+            "axis_y": 110,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 45, "width": 45 }
+        },
+        "layer_config": {
+          "is_critical": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": { "local": 5, "src_type": 1 }
+          },
+          "res_type": 3
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 200,
+            "axis_y": 40,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 0, "width": 0 }
+        },
+        "layer_config": {
+          "is_critical": true,
+          "font_size": 36,
+          "font_color": "#fb7299"
+        },
+        "resource": {
+          "text": {
+            "orig_text": "原神"
+          },
+          "res_type": 1
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 200,
+            "axis_y": 100,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 0, "width": 0 }
+        },
+        "layer_config": {
+          "is_critical": true,
+          "font_size": 26,
+          "font_color": "#99a2aa"
+        },
+        "resource": {
+          "text": {
+            "orig_text": "20:26 · 与他人联合创作"
+          },
+          "res_type": 1
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 600,
+            "axis_y": 29,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 132, "width": 438 }
+        },
+        "layer_config": {
+          "is_critical": true
+        },
+        "resource": {
+          "res_image": {
+            "image_src": {
+              "remote": "https://i0.hdslb.com/bfs/garb/item/516a2e336a4d2f9262784fb1cdd00e93642e29e7.png",
+              "src_type": 2
+            }
+          },
+          "res_type": 3
+        }
+      },
+      {
+        "general_spec": {
+          "pos_spec": {
+            "axis_x": 720,
+            "axis_y": 82,
+            "coordinate_pos": 1
+          },
+          "render_spec": { "opacity": 1 },
+          "size_spec": { "height": 0, "width": 0 }
+        },
+        "layer_config": {
+          "is_critical": true,
+          "font_size": 30,
+          "font_color": "#83bf54",
+          "font_family": "FansNum.ttf"
+        },
+        "resource": {
+          "text": {
+            "orig_text": "000001"
+          },
+          "res_type": 1
+        }
+      }
+    ]
+  },
+  "canvas_header": {}
+}
