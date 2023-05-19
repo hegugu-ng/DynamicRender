@@ -12,6 +12,7 @@ license: MIT.
 from typing import Optional, Union, List
 from pydantic import BaseModel, Json
 
+
 class info(BaseModel):
     """用户信息"""
     uid: Optional[int] = None
@@ -79,10 +80,14 @@ class emoji_details(BaseModel):
     id: int
     text: str
     url: str
-
+class new_topic(BaseModel):
+    id: int
+    name : str
+    link: str
 
 class Topic_info(BaseModel):
-    topic_details: List[topic_details]
+    topic_details: Optional[List[topic_details]]
+    new_topic:  Optional[List[topic_details]]
 
 
 class Emoji_details(BaseModel):
@@ -192,11 +197,10 @@ class DynamicDetail(BaseModel):
     code: int
     data: DynamicData
 
+
 class division(BaseModel):
     data: Union[Json, None]
     start: int
     end: int
     len: int
     type: int
-
-

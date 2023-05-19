@@ -265,10 +265,10 @@ class DynamicPictureRendering:
                     ctrls = card.item.ctrl
 
             # 表情包 话题标签
-            if display.topic_info != None:
-                topics = display.topic_info.topic_details
-            else:
-                topics = None
+            # if display.topic_info != None:
+            #     topics = display.topic_info.topic_details
+            # else:
+            topics = None
 
             if display.emoji_info != None:
                 emojis = display.emoji_info.emoji_details
@@ -970,12 +970,12 @@ class DynamicPictureRendering:
         hblist.append([res[1], (-8, h)])
         h += res[1].size[1]
 
-        if desc.user_profile.info.uid in [1974708000, 153373112]:
-            h = h-20
-            off = Image.open(bsepth+'element/off.png')
-            w = (740 - off.size[0])/2
-            hblist.append([off, (int(w), h)])
-            h += off.size[1] + 20
+        # if desc.user_profile.info.uid in [1974708000, 153373112]:
+        #     h = h-20
+        #     off = Image.open(bsepth+'element/off.png')
+        #     w = (740 - off.size[0])/2
+        #     hblist.append([off, (int(w), h)])
+        #     h += off.size[1] + 20
 
         if res[2]:
             hblist.append([res[2], (20, h)])
